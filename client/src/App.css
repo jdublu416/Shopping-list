@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+   'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.remove-btn{
+  margin-right: 1.5rem;
+}
+
+.fade-enter{
+opacity: 0.01;
+}
+
+.fade-enter-active{
+opacity: 1.0;
+transition: opacity 1000ms ease-in;
+}
+
+.fade-exit{
+opacity: 1.0;
+}
+.fade-exit-active{
+opacity: 0.01;
+transition: opacity 1000ms ease-in;
+}
